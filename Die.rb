@@ -2,9 +2,9 @@
 
 class Die
 
-  # def initialize
-  #     roll
-  # end
+  def initialize
+      roll
+  end
 
   def roll
     return @showing = Random.rand(6) + 1
